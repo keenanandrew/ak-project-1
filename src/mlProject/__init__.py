@@ -1,4 +1,5 @@
 # another constructor file, this time for logging
+# this can be reused with only minor tweaks for other projects
 
 import os
 import sys
@@ -15,9 +16,9 @@ logging.basicConfig(
     format= logging_str,
 
     handlers = [
-        logging.FileHandler(log_filepath),
-        logging.StreamHandler(sys.stdout)
+        logging.FileHandler(log_filepath), # saves log in a file
+        logging.StreamHandler(sys.stdout)  # shows log in terminal
     ]
 )
 
-logger = logging.getLogger("mlProjectLogger")
+logger = logging.getLogger("mlProjectLogger") # initialising the logger
