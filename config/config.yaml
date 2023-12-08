@@ -1,7 +1,7 @@
 # Defines what happens during data ingestion
 # Saves hardcoding elsewhere, eases change of data origin / destination
 
-artifacts_root: artifacts_root:
+artifacts_root: artifacts_root
 
 data_ingestion:
   root_dir: artifacts/data_ingestion # creates this folder
