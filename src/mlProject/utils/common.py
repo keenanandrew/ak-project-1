@@ -7,14 +7,14 @@ import yaml # for reading yaml files
 from mlProject import logger # the one we created earlier
 import json
 import joblib
-from ensure import ensure_annotations
+from ensure import ensure_annotations # an 'assertion helper' enabled as a decorator on functions below
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
 
 
 
-@ensure_annotations # decorator?
+@ensure_annotations # decorator? # says explicitly when there's an error like a TypeError
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """reads yaml file and returns
 
