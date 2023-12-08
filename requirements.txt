@@ -9,7 +9,7 @@ pyYAML
 tqdm
 ensure
 joblib
-types-pyYAML
+types-PyYAML
 Flask
 Flask-Cors
 -e .
