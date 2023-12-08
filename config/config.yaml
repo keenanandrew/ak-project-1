@@ -1,10 +1,23 @@
 # Defines what happens during data ingestion
+# Step by step
 # Saves hardcoding elsewhere, eases change of data origin / destination
 
 artifacts_root: artifacts_root
+
+# Data *ingestion* stage - configuration
 
 data_ingestion:
   root_dir: artifacts/data_ingestion # creates this folder
   source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip # gets the data from here
   local_data_file: artifacts/data_ingestion/data.zip # puts it here, zipped
   unzip_dir: artifacts/data_ingestion # where it gets saved when unzipped
+
+
+# Data *validation* stage - configuration  
+
+# What is the validation? > Checking data against a schema (schema.yaml)
+
+data_validation:
+  root_dir: artifacts/data_validation # creates this folder
+  unzip_dir: artifacts/data_ingestion/winequality-red.csv # accesses this file
+  STATUS_FILE: artifacts/data_validation/status.txt # ?
