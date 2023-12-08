@@ -1,0 +1,10 @@
+# Defines what happens during data ingestion
+# Saves hardcoding elsewhere, eases change of data origin / destination
+
+artifacts_root: artifacts_root:
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion # creates this folder
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip # gets the data from here
+  local_data_file: artifacts/data_ingestion/data.zip # puts it here, zipped
+  unzip_dir: artifacts/data_ingestion # where it gets saved when unzipped
