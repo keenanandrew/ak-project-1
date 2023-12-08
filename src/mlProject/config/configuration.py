@@ -1,6 +1,6 @@
-from mlProject.constants import * # this gets the constants constructor file & contents
-from mlProject.utils.common import read_yaml, create_directories # importing functions defined in utils
-from mlProject.entity.config_entity import DataIngestionConfig
+from src.mlProject.constants import * # this gets the constants constructor file & contents
+from src.mlProject.utils.common import read_yaml, create_directories # importing functions defined in utils
+from src.mlProject.entity.config_entity import DataIngestionConfig
 
 class ConfigurationManager:
     def __init__(
