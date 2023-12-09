@@ -19,5 +19,5 @@ data_ingestion:
 
 data_validation:
   root_dir: artifacts/data_validation # creates this folder
-  unzip_dir: artifacts/data_ingestion/winequality-red.csv # accesses this file
-  STATUS_FILE: artifacts/data_validation/status.txt # ?
+  unzip_data_dir: artifacts/data_ingestion/winequality-red.csv # accesses this file
+  STATUS_FILE: artifacts/data_validation/status.txt # creates a status file
