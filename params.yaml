@@ -1,3 +1,5 @@
 # Parameters will be stored and updated here
 # Rather than in the command line
-key: val # dummy info for now
+ElasticNet:
+  alpha: 0.5
+  l1_ratio: 0.7
