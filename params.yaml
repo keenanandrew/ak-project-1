@@ -1,5 +1,5 @@
 # Parameters will be stored and updated here
 # Rather than in the command line
 ElasticNet:
-  alpha: 0.4
-  l1_ratio: 0.3
+  alpha: 0.2
+  l1_ratio: 0.1
