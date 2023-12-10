@@ -1,0 +1,15 @@
+artifact_uri: file:///home/keenanandrew/krish-naik/End-to-end-ML-project/mlruns/0/3fd5b85ead6f410aa17b7f24d8063bee/artifacts
+end_time: 1702235622768
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3fd5b85ead6f410aa17b7f24d8063bee
+run_name: luminous-cow-333
+run_uuid: 3fd5b85ead6f410aa17b7f24d8063bee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702235616812
+status: 3
+tags: []
+user_id: keenanandrew

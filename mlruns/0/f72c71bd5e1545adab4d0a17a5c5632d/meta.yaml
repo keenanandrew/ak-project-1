@@ -1,0 +1,15 @@
+artifact_uri: file:///home/keenanandrew/krish-naik/End-to-end-ML-project/mlruns/0/f72c71bd5e1545adab4d0a17a5c5632d/artifacts
+end_time: 1702235610622
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f72c71bd5e1545adab4d0a17a5c5632d
+run_name: bustling-moth-648
+run_uuid: f72c71bd5e1545adab4d0a17a5c5632d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702235604579
+status: 3
+tags: []
+user_id: keenanandrew
