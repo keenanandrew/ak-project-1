@@ -1,5 +1,9 @@
 # Parameters will be stored and updated here
 # Rather than in the command line
-ElasticNet:
-  alpha: 0.2
-  l1_ratio: 0.1
+LogisticRegressionCV:
+  penalty: 'l2'
+  tol: 0.001
+  C: .9
+  fit_intercept: True 
+  random_state: 42
+  solver: 'liblinear'

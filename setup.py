@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "End-to-end-ML-project"
+REPO_NAME = "ak-project-1"
 AUTHOR_USER_NAME = "keenanandrew"
 SRC_REPO = "mlProject"
 AUTHOR_EMAIL = "keenanandrew@gmail.com"
@@ -19,7 +19,7 @@ setuptools.setup(
     author_email=AUTHOR_EMAIL,
     description="A small python package for ml app",
     long_description=long_description,
-    long_description_content="text/markdown",
+    # long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",

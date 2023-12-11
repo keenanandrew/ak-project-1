@@ -33,9 +33,13 @@ class ModelTrainerConfig:
     train_data_path: Path
     test_data_path: Path
     model_name: str
-    alpha: float
-    l1_ratio: float
+    penalty: str
+    tol: float
+    C: float
+    fit_intercept: bool
+    solver: str
     target_column: str
+    random_state: float
 
 
 @dataclass(frozen=True)

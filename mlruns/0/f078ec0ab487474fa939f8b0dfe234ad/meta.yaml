@@ -1,0 +1,15 @@
+artifact_uri: file:///home/keenanandrew/krish-naik/End-to-end-ML-project/mlruns/0/f078ec0ab487474fa939f8b0dfe234ad/artifacts
+end_time: 1702307566558
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f078ec0ab487474fa939f8b0dfe234ad
+run_name: gentle-lynx-286
+run_uuid: f078ec0ab487474fa939f8b0dfe234ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702307560697
+status: 3
+tags: []
+user_id: keenanandrew

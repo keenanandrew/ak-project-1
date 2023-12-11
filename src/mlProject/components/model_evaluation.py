@@ -51,7 +51,7 @@ class ModelEvaluation:
                 # This is the registering step
                 # Learn this properly
                 mlflow.sklearn.log_model(
-                    model, "model", registered_model_name="AK ElasticNet Model"
+                    model, "model", registered_model_name="AK LRCV Model"
                 )
             else:
                 mlflow.sklearn.log_model(model, "model")
