@@ -3,6 +3,8 @@ from pathlib import Path
 
 
 # takes info from config.yaml
+# or does it?
+# it defines types within dataclasses
 @dataclass(frozen=True)
 class DataIngestionConfig:
     root_dir: Path
