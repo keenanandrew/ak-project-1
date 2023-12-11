@@ -1,0 +1,15 @@
+artifact_uri: file:///home/keenanandrew/krish-naik/End-to-end-ML-project/mlruns/0/aaa8d5dcafe948acbf6decfb734c9d62/artifacts
+end_time: 1702237141627
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aaa8d5dcafe948acbf6decfb734c9d62
+run_name: overjoyed-wasp-327
+run_uuid: aaa8d5dcafe948acbf6decfb734c9d62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702237137686
+status: 3
+tags: []
+user_id: keenanandrew

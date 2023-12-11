@@ -1,20 +1,23 @@
 # For bespoke functions that are used a lot in different parts of the app
 # Can call this folder at the top of other files, to access its functionality
 
-import os
-from box.exceptions import BoxValueError # for exceptions, somehow
-import yaml # for reading yaml files
-from mlProject import logger # the one we created earlier
 import json
-import joblib
-from ensure import ensure_annotations # an 'assertion helper' enabled as a decorator on functions below
-from box import ConfigBox
+import os
 from pathlib import Path
 from typing import Any
 
+import joblib
+import yaml  # for reading yaml files
+from box import ConfigBox
+from box.exceptions import BoxValueError  # for exceptions, somehow
+from ensure import (
+    ensure_annotations,
+)  # an 'assertion helper' enabled as a decorator on functions below
+
+from mlProject import logger  # the one we created earlier
 
 
-@ensure_annotations # decorator? # says explicitly when there's an error like a TypeError
+@ensure_annotations  # decorator? # says explicitly when there's an error like a TypeError
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """reads yaml file and returns
 
@@ -37,7 +40,6 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         raise ValueError("yaml file is empty")
     except Exception as e:
         raise e
-    
 
 
 @ensure_annotations
@@ -66,8 +68,6 @@ def save_json(path: Path, data: dict):
         json.dump(data, f, indent=4)
 
     logger.info(f"json file saved at: {path}")
-
-
 
 
 @ensure_annotations
@@ -114,7 +114,6 @@ def load_bin(path: Path) -> Any:
     return data
 
 
-
 @ensure_annotations
 def get_size(path: Path) -> str:
     """get size in KB
@@ -125,8 +124,5 @@ def get_size(path: Path) -> str:
     Returns:
         str: size in KB
     """
-    size_in_kb = round(os.path.getsize(path)/1024)
+    size_in_kb = round(os.path.getsize(path) / 1024)
     return f"~ {size_in_kb} KB"
-
-
-

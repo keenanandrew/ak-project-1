@@ -1,8 +1,8 @@
 # A quick way to create an empty template for a library / project
 
+import logging
 import os
 from pathlib import Path
-import logging
 
 logging.basicConfig(
     level=logging.INFO, format="[%(asctime)s]: %(message)s:"
