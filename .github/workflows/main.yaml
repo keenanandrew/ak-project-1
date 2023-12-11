@@ -8,3 +8,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: psf/black@stable
+    
+  
+  build_and_publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and push iamge
+        run: |
+          docker login --username keenanandrew --password ${{secrets.GH_PAT}} ghcr.io
+          docker build . --tag ghcr.io/keenanandrew/andrewlearnspackages:latest
+          docker push ghcr.io/keenanandrew/andrewlearnspackages:latest 
+
+# What do I want to achieve?
+# For the package to automatically update
+# whenever I update the repo
+# And for checks to its usability etc
+
+# Specifically, update the container on GHCR
+
