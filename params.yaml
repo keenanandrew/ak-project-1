@@ -3,7 +3,7 @@
 LogisticRegressionCV:
   penalty: 'l2'
   tol: 0.001
-  C: .9
+  C: 0.9
   fit_intercept: True 
   random_state: 42
   solver: 'liblinear'

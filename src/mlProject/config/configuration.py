@@ -83,7 +83,7 @@ class ConfigurationManager:
             fit_intercept=params.fit_intercept,
             random_state=params.random_state,
             solver=params.solver,
-            target_column=schema.name
+            target_column=schema.name,
         )
 
         return model_trainer_config
@@ -102,7 +102,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name=config.metric_file_name,
             target_column=schema.name,
-            mlflow_uri="https://dagshub.com/keenanandrew/End-to-end-ML-project.mlflow",
+            mlflow_uri="https://dagshub.com/keenanandrew/ak-project-1.mlflow",
         )
 
         return model_evaluation_config

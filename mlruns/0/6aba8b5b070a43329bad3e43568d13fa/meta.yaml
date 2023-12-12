@@ -1,0 +1,15 @@
+artifact_uri: file:///home/keenanandrew/krish-naik/End-to-end-ML-project/mlruns/0/6aba8b5b070a43329bad3e43568d13fa/artifacts
+end_time: 1702312630919
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6aba8b5b070a43329bad3e43568d13fa
+run_name: melodic-ox-488
+run_uuid: 6aba8b5b070a43329bad3e43568d13fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702312627008
+status: 3
+tags: []
+user_id: keenanandrew

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/keenanandrew/krish-naik/End-to-end-ML-project/mlruns/0/9c5ff02461b74341a28f1d8961ad0ad2/artifacts
+end_time: 1702310701340
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c5ff02461b74341a28f1d8961ad0ad2
+run_name: bustling-shoat-437
+run_uuid: 9c5ff02461b74341a28f1d8961ad0ad2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702310694298
+status: 3
+tags: []
+user_id: keenanandrew

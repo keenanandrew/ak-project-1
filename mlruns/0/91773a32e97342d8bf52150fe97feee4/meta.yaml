@@ -1,0 +1,15 @@
+artifact_uri: file:///home/keenanandrew/krish-naik/End-to-end-ML-project/mlruns/0/91773a32e97342d8bf52150fe97feee4/artifacts
+end_time: 1702312512169
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 91773a32e97342d8bf52150fe97feee4
+run_name: sassy-hound-770
+run_uuid: 91773a32e97342d8bf52150fe97feee4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702312508329
+status: 3
+tags: []
+user_id: keenanandrew

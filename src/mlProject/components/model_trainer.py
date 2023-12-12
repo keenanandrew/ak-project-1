@@ -2,7 +2,8 @@ import os
 
 import joblib
 import pandas as pd
-from sklearn.linear_model import LogisticRegressionCV # where the model type is chosen
+import numpy as np 
+from sklearn.linear_model import LogisticRegressionCV  # where the model type is chosen
 
 from mlProject import logger
 from mlProject.entity.config_entity import ModelTrainerConfig
@@ -18,12 +19,16 @@ class ModelTrainer:
 
         train_x = train_data.drop([self.config.target_column], axis=1)
         test_x = test_data.drop([self.config.target_column], axis=1)
-        train_y = train_data[[self.config.target_column]]
+        train_y = np.ravel(train_data[[self.config.target_column]])
         test_y = test_data[[self.config.target_column]]
 
         # model type is set here
         lr = LogisticRegressionCV(
-            penalty=self.config.penalty, tol=self.config.tol, fit_intercept=self.config.fit_intercept, solver=self.config.solver,  random_state=self.config.random_state
+            penalty=self.config.penalty,
+            tol=self.config.tol,
+            fit_intercept=self.config.fit_intercept,
+            solver=self.config.solver,
+            random_state=self.config.random_state,
         )
         lr.fit(train_x, train_y)
 

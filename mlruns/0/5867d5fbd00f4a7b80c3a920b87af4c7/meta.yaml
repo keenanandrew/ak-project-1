@@ -1,0 +1,15 @@
+artifact_uri: file://home/keenanandrew/ak-project/ak-project-1/mlruns/0/5867d5fbd00f4a7b80c3a920b87af4c7/artifacts
+end_time: 1702312816913
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5867d5fbd00f4a7b80c3a920b87af4c7
+run_name: fortunate-stag-573
+run_uuid: 5867d5fbd00f4a7b80c3a920b87af4c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702312811384
+status: 4
+tags: []
+user_id: keenanandrew
